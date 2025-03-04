@@ -50,7 +50,8 @@ Projeto em Laravel para gerenciamento de cursos, turmas e matrículas. Permite o
 6. **Rodar as migrations** para criar as tabelas:
     
     ```
-    php artisan migrate
+    php artisan migrate --seed
+    
     ```
     
 7. **Compilar os assets** (CSS/JS) em modo de desenvolvimento:
